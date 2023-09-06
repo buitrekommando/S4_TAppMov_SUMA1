@@ -43,7 +43,7 @@ public class Main {
         System.out.println("--------------");
 
         //intanciar un objeto de la clase Libro
-        Libro libro = new Libro("Robert C. Martin ", "Martin ", "17","12", "1952", "Estado Unidense", 1,"Clean Code: A Handbook of Agile Software Craftsmanship", 9780132350884L, "1954", autor);
+        Libro libro = new Libro("Robert C. Martin ", "Martin ", "17","12", "1952", "Estado Unidense", 1,"Clean Code: A Handbook of Agile Software Craftsmanship", "978-0132350884", "1954", autor);
 
         System.out.println("Título Libro: " + libro.getTitulo());
         System.out.println("autor Libro: " + libro.getAutor().getNombreCompleto());

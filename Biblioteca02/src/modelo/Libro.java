@@ -3,12 +3,12 @@ package modelo;
 public class Libro extends Autor{
     private int id;
     private String titulo;
-    private Long isbn;
+    private String isbn;
     private String anioPublicacion;
     private Autor autor;
 
 
-    public Libro(String nombre, String apellido, String diaNacimiento, String mesNacimiento,String anioNacimiento, String nacionalidad, int id, String titulo, Long isbn, String anioPublicacion, Autor autor) {
+    public Libro(String nombre, String apellido, String diaNacimiento, String mesNacimiento,String anioNacimiento, String nacionalidad, int id, String titulo, String isbn, String anioPublicacion, Autor autor) {
         super(nombre, apellido, diaNacimiento, mesNacimiento, anioNacimiento, nacionalidad);
         this.id = id;
         this.titulo = titulo;
@@ -25,7 +25,7 @@ public class Libro extends Autor{
         return titulo;
     }
 
-    public Long getIsbn() {
+    public String getIsbn() {
         return isbn;
     }
 
