@@ -33,7 +33,7 @@ public class Main {
 
         System.out.println("--------------");
         //intanciar un objeto de la clase Autor
-        Autor autor = new Autor("John Ronald", "Tolkien", "03", "01", "1892", "Sudafricana");
+        Autor autor = new Autor("Robert C. Martin ", "Martin ", "17", "12", "1952", "Estado Unidense");
 
         //imprimimos el nombre y apellido del autor que son heredados
         System.out.println("Nombre Autor: "+autor.getNombreCompleto()  + ", nació "+ autor.getNacimiento()+", su nacionalidad es: "+autor.getNacionalidad());
@@ -43,7 +43,7 @@ public class Main {
         System.out.println("--------------");
 
         //intanciar un objeto de la clase Libro
-        Libro libro = new Libro("John Ronald", "Tolkien", "03","01", "1892", "Sudafricana", 1,"Clean Code: A Handbook of Agile Software Craftsmanship", 9780132350884L, "1954", autor);
+        Libro libro = new Libro("Robert C. Martin ", "Martin ", "17","12", "1952", "Estado Unidense", 1,"Clean Code: A Handbook of Agile Software Craftsmanship", 9780132350884L, "1954", autor);
 
         System.out.println("Título Libro: " + libro.getTitulo());
         System.out.println("autor Libro: " + libro.getAutor().getNombreCompleto());
