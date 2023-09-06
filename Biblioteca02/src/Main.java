@@ -7,7 +7,7 @@ import modelo.Prestamo;
 public class Main {
     public static void main(String[] args) {
 //        // Instanciamos un objeto de la clase Persona
-//        Persona persona = new Persona("José", "Henriquez");
+//        Persona persona = new Persona("José Luis", "Henriquez");
 //
 //        // Imprimimos el nombre y apellido de la persona
 //        System.out.println("Nombre Persona: " + persona.getNombre());
