@@ -14,6 +14,7 @@ public class Main {
 //        System.out.println("Apellido Persona: " + persona.getApellido());
 //        System.out.println("Nombre completo Persona: " + persona.getNombreCompleto());
 //Nueva nota de test.
+//Nota agregada desde GitHub
 
         System.out.println("--------------");
 
