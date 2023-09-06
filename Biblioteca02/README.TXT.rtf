@@ -1,164 +1,52 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fnil\fcharset0 LucidaGrande;
-}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid2\'01\'01;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
-{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
-{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
-{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa321\partightenfactor0
+# SITUACIÓN:
 
-\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 SITUACI\'d3N:\
-\pard\pardeftab720\sa240\partightenfactor0
+En la ciudad de CiudadLibro, existe una reconocida biblioteca llamada "Biblioteca del Saber". Esta biblioteca cuenta con una amplia colección de libros de diversos géneros y autores. Sin embargo, debido al creciente número de préstamos y usuarios, el sistema de gestión actual se ha vuelto obsoleto y poco eficiente.
+Para mejorar la administración de la biblioteca, se ha decidido desarrollar un nuevo sistema de gestión que permita un registro más organizado y preciso de los libros, los autores, los préstamos y los usuarios. Este sistema buscará agilizar los procesos de préstamo, devolución y búsqueda de libros, así como brindar un mejor control sobre la disponibilidad de los títulos.
+A usted se le ha encargado la construcción de un MVP, un Producto Mínimo Viable, que deberá considerar algunas funcionalidades mínimas, las que se incrementarán una vez validado el sistema.
+En este contexto, se plantea la necesidad de desarrollar las clases de la capa modelo del sistema. Se identifican cinco clases clave:
 
-\f1\b0\fs24 \cf0 En la ciudad de CiudadLibro, existe una reconocida biblioteca llamada "Biblioteca del Saber". Esta biblioteca cuenta con una amplia colecci\'f3n de libros de diversos g\'e9neros y autores. Sin embargo, debido al creciente n\'famero de pr\'e9stamos y usuarios, el sistema de gesti\'f3n actual se ha vuelto obsoleto y poco eficiente. Para mejorar la administraci\'f3n de la biblioteca, se ha decidido desarrollar un nuevo sistema de gesti\'f3n que permita un registro m\'e1s organizado y preciso de los libros, los autores, los pr\'e9stamos y los usuarios. Este sistema buscar\'e1 agilizar los procesos de pr\'e9stamo, devoluci\'f3n y b\'fasqueda de libros, as\'ed como brindar un mejor control sobre la disponibilidad de los t\'edtulos. A usted se le ha encargado la construcci\'f3n de un MVP, un Producto M\'ednimo Viable, que deber\'e1 considerar algunas funcionalidades m\'ednimas, las que se incrementar\'e1n una vez validado el sistema. En este contexto, se plantea la necesidad de desarrollar las clases de la capa modelo del sistema. Se identifican cinco clases clave:\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Clase Autor: La biblioteca desea mantener un registro detallado de los autores de los libros. Para ello, se necesita una clase Autor que permita almacenar informaci\'f3n como\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
-\ls1\ilvl1
-\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nombre,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 apellido,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fecha de nacimiento y
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nacionalidad de cada autor.
-\f1\b0 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Clase Libro: La biblioteca cuenta con una gran cantidad de libros en su colecci\'f3n. Para facilitar la gesti\'f3n de estos, se requiere una clase Libro que almacene informaci\'f3n como\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
-\ls1\ilvl1
-\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 t\'edtulo,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ISBN,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 a\'f1o de publicaci\'f3n
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 autor correspondiente.
-\f1\b0 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Clase Prestamos: La biblioteca realiza pr\'e9stamos de libros a los usuarios registrados. Para llevar un control adecuado de estos pr\'e9stamos, se necesita una clase Prestamos que almacene informaci\'f3n como la\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
-\ls1\ilvl1
-\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fecha de pr\'e9stamo,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fecha de devoluci\'f3n y
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 referencias al libro y (FK Libro)
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 al usuario involucrado en cada pr\'e9stamo. (FK Usuario)
-\f1\b0 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Clase Usuario: La biblioteca cuenta con un registro de usuarios que pueden solicitar pr\'e9stamos de libros. Para gestionar la informaci\'f3n de estos usuarios, se requiere una clase Usuario que almacene datos como:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
-\ls1\ilvl1
-\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nombre,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 apellido,
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 n\'famero de identificaci\'f3n.
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 direcci\'f3n de correo electr\'f3nico.
-\f1\b0 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Clase Persona: Se identifica que tanto los autores como los usuarios comparten atributos comunes, como el :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
-\ls1\ilvl1
-\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nombre y el
-\f1\b0 \
-\ls1\ilvl1
-\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 apellido.
-\f1\b0  Para evitar duplicaci\'f3n de c\'f3digo y promover una estructura m\'e1s organizada, se plantea una superclase Persona que almacene estos atributos comunes y sea utilizada como base para las clases Autor y Usuario.\
-\pard\pardeftab720\sa280\partightenfactor0
+1. Clase Autor:
+La biblioteca desea mantener un registro detallado de los autores de los libros. Para ello, se necesita una clase Autor que permita almacenar información como 
+    1. **nombre,** 
+    2. **apellido,** 
+    3. **fecha de nacimiento y** 
+    4. **nacionalidad de cada autor.**
+2. Clase Libro:
+La biblioteca cuenta con una gran cantidad de libros en su colección. Para facilitar la gestión de estos, se requiere una clase Libro que almacene información como 
+    1. **título,** 
+    2. **ISBN,** 
+    3. **año de publicación** 
+    4. **autor correspondiente.**
+3. Clase Prestamos:
+La biblioteca realiza préstamos de libros a los usuarios registrados. Para llevar un control adecuado de estos préstamos, se necesita una clase Prestamos que almacene información como la 
+    1. **fecha de préstamo,** 
+    2. **fecha de devolución y** 
+    3. **referencias al libro y (FK Libro)**
+    4. **al usuario involucrado en cada préstamo. (FK Usuario)**
+4. Clase Usuario:
+La biblioteca cuenta con un registro de usuarios que pueden solicitar préstamos de libros. Para gestionar la información de estos usuarios, se requiere una clase Usuario que almacene datos como:
+    1.  **nombre,**
+    2. **apellido,** 
+    3. **número de identificación.**
+    4. **dirección de correo electrónico.**
+5. Clase Persona:
+Se identifica que tanto los autores como los usuarios comparten atributos comunes, como el :
+    1. **nombre y el**
+    2.  **apellido.** Para evitar duplicación de código y promover una estructura más organizada, se plantea una superclase Persona que almacene estos atributos comunes y sea utilizada como base para las clases Autor y Usuario.
+    
 
-\f0\b\fs28 \cf0 SE PIDE:\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls2\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 [ ] Construir capa modelo de acuerdo a caracter\'edsticas planteadas en la\'a0Situaci\'f3n, seg\'fan lo planteado en las\'a0Instrucciones.\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 [ ] En programa principal, crear el siguiente libro:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
-\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f2 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 T\'edtulo: "Clean Code: A Handbook of Agile Software Craftsmanship"\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f2 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ISBN: 978-0132350884\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f2 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 A\'f1o de publicaci\'f3n: 2008\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f2 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Autor: Robert C. Martin - Nombre: Robert - Apellido: Martin - Fecha de nacimiento: 17 de diciembre de 1952 - Nacionalidad: Estadounidense.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa280\partightenfactor0
+### SE PIDE:
 
-\f0\b\fs28 \cf0 En programa principal:\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls3\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 [ ] Crear un usuario activo.\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 [ ] Implementar impresi\'f3n de datos del libro y del usuario creados.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+- [ ]  Construir capa modelo de acuerdo a características planteadas en la Situación, según lo planteado en las Instrucciones.
+- [ ]  En programa principal, crear el siguiente libro:
+    - Título: "Clean Code: A Handbook of Agile Software Craftsmanship"
+    - ISBN: 978-0132350884
+    - Año de publicación: 2008
+    - Autor: Robert C. Martin - Nombre: Robert - Apellido: Martin - Fecha de nacimiento: 17 de diciembre de 1952 - Nacionalidad: Estadounidense.
 
-\f0\b\fs36 \cf0 ENTREGABLE:\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls4\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Proyecto en formato .ZIP o. RAR, conteniendo la carpeta del proyecto.\
-\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Subir a plataforma mediante link en esta misma actividad.\
-\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Cada integrante del grupo debe hacer entrega del trabajo, indicando integrantes en un archivo de texto adjunto.\
-\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Se revisar\'e1 definici\'f3n de las clases (entidad, atributos y m\'e9todos) y la instanciaci\'f3n de los objetos en el programa principal.\
-}
+---
+
+### En programa principal:
+
+- [ ]  Crear un usuario activo.
+- [ ]  Implementar impresión de datos del libro y del usuario creados.
