@@ -1,4 +1,3 @@
-import modelo.Persona;
 import modelo.Usuario;
 import modelo.Autor;
 import modelo.Libro;
